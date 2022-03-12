@@ -1,4 +1,4 @@
-package com.itClassWorkAbstractAnimals.itClassWorkAnimals;
+package com.itClassWorkAnimals;
 
 public abstract class Cats extends Animal {
     private int claws;

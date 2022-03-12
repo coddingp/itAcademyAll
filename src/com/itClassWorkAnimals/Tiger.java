@@ -1,4 +1,4 @@
-package com.itClassWorkAbstractAnimals.itClassWorkAnimals;
+package com.itClassWorkAnimals;
 
 public class Tiger extends Animal {
     private String bread;

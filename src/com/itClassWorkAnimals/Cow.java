@@ -1,11 +1,11 @@
-package com.itClassWorkAbstractAnimals.itClassWorkAnimals;
+package com.itClassWorkAnimals;
 
-public class Cat extends Cats {
+public class Cow extends Animal {
     private String name;
     private String bread;
 
-    public Cat(double weight, int age, String color, int claws, double tailLength, int whiskers, String name, String bread) {
-        super(weight, age, color, claws, tailLength, whiskers);
+    public Cow(double weight, int age, String color, String name, String bread) {
+        super(weight, age, color);
         this.name = name;
         this.bread = bread;
 
@@ -28,18 +28,18 @@ public class Cat extends Cats {
     }
 
     @Override
-    public void landOnFeet() {
-        System.out.println("The kitten safely landed on its feet.");
-    }
-
-    @Override
     public void sleep() {
-        System.out.println("Mr-mr-mr");
+        System.out.println("Z-z-z");
     }
 
     @Override
     public void eat() {
-        System.out.println("Chunk-chunk-chunk-mr");
+        System.out.println("Nyam-nyam");
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("Muu-muu");
     }
 
     @Override
@@ -47,9 +47,10 @@ public class Cat extends Cats {
         this.sleep();
     }
 
+
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Cow{" +
                 "name='" + name + '\'' +
                 ", bread='" + bread + '\'' +
                 '}';

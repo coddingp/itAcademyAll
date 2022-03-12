@@ -1,4 +1,4 @@
-package com.itClassWorkAbstractAnimals.itClassWorkAnimals;
+package com.itClassWorkAnimals;
 
 import java.util.Arrays;
 
@@ -45,7 +45,7 @@ public class Main {
 
         System.out.println(com.itClassWorkAbstractAnimals.Cow.myToString());
 
-        com.itClassWorkAbstractAnimals.itClassWorkAnimals.Main.main(args);
+        com.itClassWorkAnimals.Main.main(args);
 
     }
 

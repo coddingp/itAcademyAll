@@ -46,7 +46,7 @@ package com.itClassWorkAbstractAnimals;//package com.itClassWorkAbstractAnimals;
 //        System.out.println("The array of cats without abstract modifier works this way: " + Arrays.toString(firstCats));
 //
 //
-//        System.out.println(com.itClassWorkAbstractAnimals.itClassWorkAnimals.Animal.myToString());
+//        System.out.println(com.itClassWorkAnimals.Animal.myToString());
 //
 //        SetRadius.main(args);
 //
