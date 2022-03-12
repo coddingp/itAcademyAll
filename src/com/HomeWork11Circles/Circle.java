@@ -10,20 +10,20 @@ public class Circle {
     }
 
     public Circle(int radius) {
-        this.radius=radius;
+        this.radius = radius;
     }
 
     public Circle(int radius, String color) {
-        this.radius=radius;
+        this.radius = radius;
         this.color = color;
     }
 
     public Circle(int radius,
                   String color,
                   boolean transparent) {
-        this.radius=radius;
+        this.radius = radius;
         this.color = color;
-        this.transparent=transparent;
+        this.transparent = transparent;
     }
 
     public void setRadius(int radius) {

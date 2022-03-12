@@ -55,7 +55,7 @@ public class Main {
         int arrayCellNumber = scanner.nextInt();
         System.out.println("multiplier = " + multiplier + " arrayCellNumber = " + arrayCellNumber);
 //        System.out.println("circlesDivisibleBy3 = " + Arrays.toString(circlesDivisibleBy3));
-        circles[arrayCellNumber]=(circles[arrayCellNumber])*multiplier;
+        circles[arrayCellNumber] = (circles[arrayCellNumber]) * multiplier;
         System.out.println(Arrays.toString(circles));
         System.out.println(circle.circleSquare(circles[1]));
     }
