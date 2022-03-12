@@ -16,7 +16,7 @@ public class Main {
             Scanner operationChars = new Scanner(System.in);
 
             if (startButton.equals("start") || startButton.equals("Start")) {
-                com.itCalculator.src.com.company.Calculator calculator = new com.itCalculator.src.com.company.Calculator();
+                com.itCalculator.Calculator calculator = new com.itCalculator.Calculator();
                 System.out.println("Enter first number 1 to 1 000 000");
                 if (nums.hasNextDouble()) {
                     calculator.setFirst(nums.nextDouble());

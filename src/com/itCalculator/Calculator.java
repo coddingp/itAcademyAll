@@ -21,7 +21,7 @@ public class Calculator implements CalculableInterface {
     }
 
     public String getMathChar() {
-        return mathChar;
+        return this.mathChar;
     }
 
     public void setMathChar(String mathChar) {
@@ -29,7 +29,7 @@ public class Calculator implements CalculableInterface {
     }
 
     public Double getSecond() {
-        return second;
+        return this.second;
     }
 
     public void setSecond(Double second) {
@@ -37,7 +37,7 @@ public class Calculator implements CalculableInterface {
     }
 
     public Double getRes() {
-        return res;
+        return this.res;
     }
 
     public void setRes(Double res) {
