@@ -12,7 +12,7 @@ public class ExchangeRuble {
         this.ruble = 1.15f;
         this.dollar = 84.5f;
         this.som = 2;
-        this.firstCurrency=firstCurrency;
+        this.firstCurrency = firstCurrency;
         this.secondCurrency = secondCurrency;
         this.amount = amount;
         amountToRecieve();
@@ -69,11 +69,11 @@ public class ExchangeRuble {
     public float amountToRecieve() {
         switch (secondCurrency) {
             case "рубли":
-                return this.ruble*getAmount();
+                return this.ruble * getAmount();
             case "доллары":
-                return this.dollar*getDollar();
+                return this.dollar * getDollar();
             case "сомы":
-                return this.som*getSom();
+                return this.som * getSom();
         }
         return 0;
     }

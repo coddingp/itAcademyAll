@@ -8,6 +8,7 @@ public class Error {
         int positiveNum = sc.nextInt();
         if (positiveNum < 0) Error();
     }
+
     static void Error() {
         System.out.println("Ошибка программы");
     }

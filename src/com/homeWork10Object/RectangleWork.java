@@ -14,6 +14,6 @@ public class RectangleWork {
         int scnB = scanner.nextInt();
         rectangle.setA(scnA);
         rectangle.setB(scnB);
-        System.out.println("Square of your rectangle is equal to "+rectangle.getSquare(rectangle.a, rectangle.b));
+        System.out.println("Square of your rectangle is equal to " + rectangle.getSquare(rectangle.a, rectangle.b));
     }
 }

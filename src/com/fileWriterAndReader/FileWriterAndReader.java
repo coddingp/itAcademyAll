@@ -45,13 +45,13 @@ public class FileWriterAndReader {
 
 //        System.out.println(scanner1.nextLine());
         String x = "0";
-        int y=0;
+        int y = 0;
         while (scanner2.hasNext()) {
-            if(scanner2.next().equals(x)) {
+            if (scanner2.next().equals(x)) {
                 System.out.println(scanner2.next());
             }
             y++;
-            x+=""+y;
+            x += "" + y;
         }
         fileReader.close();
 //        File itTask2 = new File("itTask2.txt");
